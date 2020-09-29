@@ -6,7 +6,7 @@ void draw() {
 	 // Draw a white background
   ellipseMode(CENTER);
   ellipse(mouseX, mouseY, 1, 1);
-  println(mouseX, mouseY);
+//   println(mouseX, mouseY);
 
   background(200);
   // Set CENTER mode
@@ -31,4 +31,8 @@ void draw() {
   stroke(mouseX, 0, mouseY);
   line(mouseX + 10, mouseY + 50, mouseX + 20, mouseY + 80);
   line(mouseX - 9, mouseY + 50, mouseX - 20, mouseY + 80);
+}
+
+void mousePressed() {
+	println("Oh, hi there!");
 }
